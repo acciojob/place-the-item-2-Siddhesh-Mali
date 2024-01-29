@@ -1,2 +1,32 @@
 
 /* Your CSS Code here. */
+
+    .box{
+    height: 100px;
+    width: 100px;
+    /* margin: 2px; */
+}
+.holder>.box{
+    width: 15%;
+}
+.green{
+    background-color: green;
+}
+.blue{
+    background-color: blue;
+}
+.red{
+background-color: red;
+
+}
+
+.space{
+    display: flex;
+    justify-content: center;
+}
+
+.holder{
+    display: flex;
+    flex-wrap: wrap;
+	 justify-content: center;
+}
